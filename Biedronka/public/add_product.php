@@ -11,6 +11,16 @@
     include 'navbar.php'; 
     require_once '../src/ProductManager.php';
 
+session_start(); // Start the session to access session variables
+
+// Check if the user is logged in and if the role is admin
+if (!isset($_SESSION['loggedin']) || $_SESSION['role'] !== 'admin') {
+    // If not admin, redirect to the login page or deny access
+    header('Location: login.php');
+    exit;
+}
+
+
     $productManager = new ProductManager();
     $products = $productManager->getAllProducts();
     ?>
