@@ -3,8 +3,10 @@
     <div class="navbar">
         <a href="index.php">Home</a>
         <a href="products.php">Products</a>
-        <a href="basket.php">Basket</a>
-        <!-- Add any other links you need here -->
+        <a href="view_basket.php">Basket</a>
+        <a href="register.php">Register An Account</a>
+        <a href="add_product.php">Admin</a>
+        
     </div>
     <div id="search-bar">
         <form action="search.php" method="get">

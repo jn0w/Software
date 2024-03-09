@@ -68,6 +68,23 @@ body {
 }
 
 
+.basket-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.item-name, .item-quantity, .item-price, .item-subtotal {
+    margin-right: 10px;
+}
+
+.remove-button {
+    padding: 2px 5px;
+    margin-left: 10px; /* Add space between the subtotal and the remove button */
+}
+
+
     
   
 

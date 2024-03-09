@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php include 'navbar.php'; ?>
     <h2>Register</h2>
     <form method="post" action="register_user.php">
         <label for="firstname">First Name:</label>
