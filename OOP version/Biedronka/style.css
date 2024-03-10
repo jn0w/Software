@@ -1,0 +1,96 @@
+/* Add this CSS to the style.css file or within a <style> tag in your HTML */
+
+body {
+    background-color: #ff0; /* Yellow, to be very noticeable */
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+      display: none;
+  }
+  
+  /* Add a pointer when hovering over the dot/circles */
+  .dot:hover {
+      cursor: pointer;
+  }
+  
+  /* Dot/circle indicator */
+  .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+  }
+  
+  /* Category styles */
+  .category-container {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+  }
+  
+  .category {
+      border: 1px solid #ddd;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  /* Responsive styling as needed */
+  @media screen and (max-width: 600px) {
+      .category-container {
+          flex-direction: column;
+      }
+}
+
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.basket-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.item-name, .item-quantity, .item-price, .item-subtotal {
+    margin-right: 10px;
+}
+
+.remove-button {
+    padding: 2px 5px;
+    margin-left: 10px; /* Add space between the subtotal and the remove button */
+}
+
+
+
+
+
+
+    
+ 
+
+
+  
