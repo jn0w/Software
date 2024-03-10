@@ -3,13 +3,14 @@
 // src/UserManager.php
 
 require_once 'Database.php'; // Adjust the path as needed
+require_once "Manager.php";
 
-class UserManager {
-    private $db;
+class UserManager extends Manager{
+    //private $db;
 
-    public function __construct() {
-        $this->db = Database::getInstance()->getConnection();
-    }
+    //public function __construct() {
+      //  $this->db = Database::getInstance()->getConnection();
+    //}
 
     public function register($firstname, $lastname, $email, $password, $role, $address, $contact_number) {
         $passwordHash = password_hash($password, PASSWORD_DEFAULT);

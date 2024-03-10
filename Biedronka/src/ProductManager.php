@@ -1,19 +1,20 @@
 <?php
 
 require_once 'Database.php';
+require_once 'Manager.php';
 
-class ProductManager {
-    private $db;
+class ProductManager extends Manager {
+    //private $db;
 
-    public function __construct() {
-        $this->db = Database::getInstance()->getConnection();
-    }
+    //public function __construct() {
+      //  $this->db = Database::getInstance()->getConnection();
+    //}
 
     public function addProduct(Product $product) {
         $stmt = $this->db->prepare("INSERT INTO products (name, category_id, price, description) VALUES (?, ?, ?, ?)");
         $stmt->execute([
             $product->name,
-            $product->category_id, // Updated to use category_id
+            $product->category_id, 
             $product->price,
             $product->description
         ]);

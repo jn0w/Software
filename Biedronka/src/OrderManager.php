@@ -1,12 +1,13 @@
 <?php
 require_once 'Database.php'; // Adjust the path as needed
+require_once 'Manager.php';
 
-class OrderManager {
-    protected $db;
+class OrderManager extends Manager{
+    //protected $db;
 
-    public function __construct($db) {
-        $this->db = $db;
-    }
+    //public function __construct($db) {
+      //  $this->db = $db;
+    //}
 
     public function getOrderDetails($order_id) {
         // Assuming you have a single table for orders that includes guest orders
