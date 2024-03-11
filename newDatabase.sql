@@ -13,9 +13,9 @@ CREATE TABLE IF NOT EXISTS `guest_orders` (
   PRIMARY KEY (`order_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
-INSERT INTO `guest_orders` (`order_id`, `name`, `address`, `contact_number`, `email`, `total_price`, `payment_method`, `status`) VALUES
-(2, 'John John', 'Park view house ', '1234567890', 'john@gmail.com', 41.00, 'card', 'Pending'),
-(3, 'test2', 'test2', '1234567890', 'test2@gmail.com', 1.00, 'card', 'Pending');
+INSERT INTO `guest_orders` (`name`, `address`, `contact_number`, `email`, `total_price`, `payment_method`, `status`) VALUES
+('John John', 'Park view house ', '1234567890', 'john@gmail.com', 41.00, 'card', 'Pending'),
+('test2', 'test2', '1234567890', 'test2@gmail.com', 1.00, 'card', 'Pending');
 
 CREATE TABLE IF NOT EXISTS `orders` (
   `order_id` int NOT NULL AUTO_INCREMENT,
