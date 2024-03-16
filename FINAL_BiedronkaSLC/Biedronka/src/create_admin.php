@@ -33,13 +33,13 @@ try {
         // SQL statement to insert the new admin
         $stmt = $connection->prepare("INSERT INTO users (firstname, lastname, email, password, role, address, contact_number) VALUES (?, ?, ?, ?, ?, ?, ?)");
 
-        // Execute the statement with the admin object properties
+        // Execute the statement with the admin object 
         $stmt->execute([
             $admin->getFirstname(),
             $admin->getLastname(),
             $admin->getEmail(),
-            $admin->getPassword(), // Assuming getPassword returns the hashed password
-            $adminRole, // Directly using the string 'admin' since the role is fixed
+            $admin->getPassword(), 
+            $adminRole, 
             $admin->getAddress(),
             $admin->getContactNumber()
         ]);
