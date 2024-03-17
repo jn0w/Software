@@ -1,0 +1,8 @@
+https://phptherightway.com/
+https://code.tutsplus.com/why-you-should-be-using-phps-pdo-for-database-access--net-12059t
+https://code.tutsplus.com/basics-of-object-oriented-programming-in-php--cms-31910t
+https://codeshack.io/secure-login-system-php-mysql/
+https://www.simplilearn.com/tutorials/php-tutorial/oops-in-php
+https://reintech.io/blog/a-comprehensive-guide-to-php-pdo-library-for-database-access
+https://www.php.net/manual/en/book.pdo.php
+https://www.php.net/manual/en/language.oop5.basic.php
