@@ -1,7 +1,7 @@
 <?php
 require_once '../config.php';
-require_once 'User.php'; // Assuming you have a User.php file with the User class
-require_once 'Admin.php'; // Assuming you have an Admin.php file with the Admin class extending User
+require_once 'User.php'; 
+require_once 'Admin.php'; 
 
 // Admin details
 $adminFirstName = "admin";
@@ -14,7 +14,7 @@ $adminContactNumber = "admin";
 
 try {
     // Create a new PDO connection
-    $connection = new PDO($dsn, $username, $password, $options); // Your config file should define these variables
+    $connection = new PDO($dsn, $username, $password, $options); 
 
     // Check if the admin user already exists to avoid duplicates
     $stmt = $connection->prepare("SELECT * FROM users WHERE email = ?");
