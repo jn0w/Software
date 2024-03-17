@@ -16,10 +16,10 @@ $user = $userManager->authenticate($email, $password);
 
 // Check if authentication succeeded
 if ($user) {
-    // Since $user is now an object, store user information in the session using getter methods or direct property access
-    $_SESSION['user_id'] = $user->getId(); // Adjust this line to use a getter method if properties are private
-    $_SESSION['email'] = $user->getEmail(); // Adjust this line to use a getter method if properties are private
-    $_SESSION['role'] = $user->getRole(); // Adjust this line to use a getter method if properties are private
+    
+    $_SESSION['user_id'] = $user->getId(); 
+    $_SESSION['email'] = $user->getEmail(); 
+    $_SESSION['role'] = $user->getRole(); 
 
     // Redirect to the homepage after successful authentication
     header('Location: index.php');
