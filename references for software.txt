@@ -6,3 +6,4 @@ https://www.simplilearn.com/tutorials/php-tutorial/oops-in-php
 https://reintech.io/blog/a-comprehensive-guide-to-php-pdo-library-for-database-access
 https://www.php.net/manual/en/book.pdo.php
 https://www.php.net/manual/en/language.oop5.basic.php
+https://www.w3schools.com/howto/howto_js_slideshow.asp
