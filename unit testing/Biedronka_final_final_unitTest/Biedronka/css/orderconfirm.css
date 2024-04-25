@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+.confirmation-container {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.order-details h2, .order-details h3 {
+    color: #007bff;
+    margin: 10px 0;
+}
+.order-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+.order-details ul li {
+    margin-bottom: 10px;
+}
+.continue-shopping {
+    text-align: center;
+    margin-top: 20px;
+}
+.continue-shopping a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.continue-shopping a:hover {
+    background-color: #0056b3;
+}
