@@ -1,0 +1,22 @@
+Contribution:
+Jakub Nowosielski B00153676 contribution 33%
+Dawid Kaluzny B00150844 contribution 33%
+Patryk Krantz B00152271 contribution 33%
+
+Sources:
+https://phptherightway.com/
+https://code.tutsplus.com/why-you-should-be-using-phps-pdo-for-database-access--net-12059t
+https://code.tutsplus.com/basics-of-object-oriented-programming-in-php--cms-31910t
+https://codeshack.io/secure-login-system-php-mysql/
+https://www.simplilearn.com/tutorials/php-tutorial/oops-in-php
+https://reintech.io/blog/a-comprehensive-guide-to-php-pdo-library-for-database-access
+https://www.php.net/manual/en/book.pdo.php
+https://www.php.net/manual/en/language.oop5.basic.php
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+https://stackoverflow.com/questions/52565537/how-to-fetch-results-from-a-pdo-prepare-statement
+https://www.php.net/manual/en/pdo.begintransaction.php
+https://www.sitepoint.com/community/t/how-to-display-order-details-from-database/418344/8
+https://stackoverflow.com/questions/58193682/data-from-a-sql-database-to-an-array-for-a-shopping-cart
+https://www.php.net/manual/en/book.session.php
+https://www.w3schools.com/php/php_forms.asp
+https://www.php.net/manual/en/language.exceptions.php
